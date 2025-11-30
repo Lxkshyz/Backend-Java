@@ -1,1 +1,86 @@
-# Backend-Java
+# Java Backend Journey
+
+A structured learning repository documenting my path from **Core Java** to **Advanced Java**, **Spring Boot**, and **REST API** development.
+
+---
+
+## Overview
+This repository contains notes, code samples, and projects created while learning backend development with Java.  
+The goal is to build a strong foundation and progress toward production-level backend skills.
+
+--- 
+
+## Topics Covered
+
+### 1. Core Java
+- OOP  
+- Collections  
+- Exception Handling  
+- Multithreading  
+- Generics  
+- JVM + Memory Model  
+
+### 2. Advanced Java
+- JDBC  
+- Servlets  
+- JSP  
+- Filters & Listeners  
+- Session Management  
+
+### 3. Spring Framework
+- IoC & DI  
+- ApplicationContext  
+- Bean Scopes  
+
+### 4. Spring Boot
+- Auto Configuration  
+- Starter Dependencies  
+- Application Structure  
+- Profiles & Properties  
+- Logging  
+- Building APIs  
+
+### 5. REST APIs
+- Controllers  
+- CRUD Endpoints  
+- DTOs  
+- Services & Repositories  
+- Validation  
+- Exception Handling  
+- Postman Testing  
+
+### 6. Databases
+- MySQL
+- JPA & Hibernate  
+- Relationships  
+- Query Methods  
+- JPQL  
+
+---
+
+## 7. Tools & Tech Stack
+- Java  
+- Maven
+- Spring Boot  
+- MySQL 
+- IntelliJ IDEA
+- Postman
+
+---
+
+## 8. Projects Included
+- To be done!!!!
+---
+
+## Objective
+To become a job-ready backend developer capable of building scalable, secure, and production-grade applications using Java and Spring Boot.
+
+---
+
+## 📌 Status
+
+### Day 1
+- Learned how Java works internally (JVM, JRE, JDK basics)  
+- Wrote first "Hello World" program  
+- Explored JShell for quick testing  
+- Learned about variables and data types in Java  
