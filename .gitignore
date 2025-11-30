@@ -1,0 +1,14 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# MacOS
+.DS_Store
+
+# Java build stuff
+target/
+build/
+
+# Logs
+*.log
