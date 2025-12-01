@@ -1,11 +1,13 @@
 class ControlFlow {
     public static void main(String[] args) {
+
         int num = 10;
 
         System.out.println("If Statement:");
         if (num > 5) {
             System.out.println("num is greater than 5");
         }
+
         System.out.println("\nIf-Else:");
         if (num % 2 == 0) {
             System.out.println("num is even");
@@ -31,7 +33,7 @@ class ControlFlow {
             case 1: System.out.println("Monday"); break;
             case 2: System.out.println("Tuesday"); break;
             case 3: System.out.println("Wednesday"); break;
-            default: System.out.println("Unknown");
+            default: System.out.println("Unknown Day");
         }
 
         System.out.println("\nBreak and Continue:");
@@ -40,12 +42,5 @@ class ControlFlow {
             if (i == 5) break;
             System.out.println(i);
         }
-
-        System.out.println("\nReturn Demo:");
-        System.out.println("Returned: " + getNumber());
-    }
-
-    static int getNumber() {
-        return 42;
     }
 }
