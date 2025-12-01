@@ -1,33 +1,40 @@
-class Operators{
-    public static void main(String args[]){
-        int add = 1 + 1;
-        int sub = 1 - 1;
-        int divide = 2 / 2;
-        float remainder = 2 % 3;
+class Operators {
+    public static void main(String[] args) {
+        int a = 10, b = 3;
 
-        boolean condition_1 = add == sub;
-        boolean condition_2 = add >= sub;
-        boolean condition_3 = add <= sub;
-        boolean condition_4 = divide != remainder;
+        System.out.println("Arithmetic Operators:");
+        System.out.println("Addition: " + (a + b));
+        System.out.println("Subtraction: " + (a - b));
+        System.out.println("Multiplication: " + (a * b));
+        System.out.println("Division: " + (a / b));
+        System.out.println("Remainder: " + (a % b));
 
-        boolean andCond = condition_1 && condition_2;
-        boolean orCond = condition_2 || condition_3;
-        boolean notCond = !condition_3;
-        boolean xorCond = condition_1 ^ condition_4;
+        System.out.println("\nRelational Operators:");
+        System.out.println("== : " + (a == b));
+        System.out.println("!= : " + (a != b));
+        System.out.println(">  : " + (a > b));
+        System.out.println("<  : " + (a < b));
+        System.out.println(">= : " + (a >= b));
+        System.out.println("<= : " + (a <= b));
 
-        System.out.println("Addition: " + add);
-        System.out.println("Subtraction: " + sub);
-        System.out.println("Division: " + divide);
-        System.out.println("Remainder: " + remainder);
+        System.out.println("\nLogical Operators:");
+        boolean x = true, y = false;
+        System.out.println("AND: " + (x && y));
+        System.out.println("OR: " + (x || y));
+        System.out.println("NOT x: " + (!x));
+        System.out.println("XOR: " + (x ^ y));
 
-        System.out.println("== : " + condition_1);
-        System.out.println(">= : " + condition_2);
-        System.out.println("<= : " + condition_3);
-        System.out.println("!= : " + condition_4);
-
-        System.out.println("AND: " + andCond);
-        System.out.println("OR: " + orCond);
-        System.out.println("NOT: " + notCond);
-        System.out.println("XOR: " + xorCond);
+        System.out.println("\nAssignment Operators:");
+        int z = 5;
+        z += 2;
+        System.out.println("z += 2 => " + z);
+        z -= 1;
+        System.out.println("z -= 1 => " + z);
+        z *= 3;
+        System.out.println("z *= 3 => " + z);
+        z /= 2;
+        System.out.println("z /= 2 => " + z);
+        z %= 4;
+        System.out.println("z %= 4 => " + z);
     }
 }
