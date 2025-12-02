@@ -8,7 +8,7 @@ A structured learning repository documenting my path from **Core Java** to **Adv
 This repository contains notes, code samples, and projects created while learning backend development with Java.  
 The goal is to build a strong foundation and progress toward production-level backend skills.
 
---- 
+---
 
 ## Topics Covered
 
@@ -70,6 +70,7 @@ The goal is to build a strong foundation and progress toward production-level ba
 
 ## 8. Projects Included
 - To be done!!!!
+
 ---
 
 ## Objective
@@ -84,3 +85,16 @@ To become a job-ready backend developer capable of building scalable, secure, an
 - Wrote first "Hello World" program  
 - Explored JShell for quick testing  
 - Learned about variables and data types in Java  
+
+### Day 2
+- Practiced control flow statements (if/else, switch)  
+- Worked with loops (for, while, do-while, enhanced for loop)
+- Learned about operators (arithmetic, logical, relational, ternary)  
+- Solved basic pattern and logic-building exercises
+
+### Day 3
+- Understood Classes, Objects, and how Java’s OOP structure works
+- Explored Methods, return types, and parameters  
+- Studied Attributes (fields) inside a class
+- Learned about Strings and common operations  
+- Practiced working with Arrays (1D and basic multi-dimensional)
