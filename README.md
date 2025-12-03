@@ -24,7 +24,7 @@ The goal is to build a strong foundation and progress toward production-level ba
 - JDBC  
 - Servlets  
 - JSP  
-- Filters & Listeners  
+- Filters & Listeners
 - Session Management  
 
 ### 3. Spring Framework
@@ -98,3 +98,9 @@ To become a job-ready backend developer capable of building scalable, secure, an
 - Studied Attributes (fields) inside a class
 - Learned about Strings and common operations  
 - Practiced working with Arrays (1D and basic multi-dimensional)
+
+### Day 4
+- Understood how inheritance enables sharing and extending behavior between classes  
+- Learned how static variables, methods, and blocks work at the class level  
+- Studied how the final keyword applies to variables, methods, and classes  
+- Saw how final variables act as constants, final methods cannot be overridden, and final classes cannot be inherited  
