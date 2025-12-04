@@ -104,3 +104,8 @@ To become a job-ready backend developer capable of building scalable, secure, an
 - Learned how static variables, methods, and blocks work at the class level  
 - Studied how the final keyword applies to variables, methods, and classes  
 - Saw how final variables act as constants, final methods cannot be overridden, and final classes cannot be inherited  
+
+### Day 5
+- Understood the concept of super keyword.
+- Deeper insight of inheritance, and this keyword and method overloading and overriding.
+- Understood polymorphism concept.
