@@ -109,3 +109,9 @@ To become a job-ready backend developer capable of building scalable, secure, an
 - Understood the concept of super keyword.
 - Deeper insight of inheritance, and this keyword and method overloading and overriding.
 - Understood polymorphism concept.
+
+### Day 6
+- Learned Abstraction (abstract classes and abstract methods)
+- Studied Inner Classes (non-static & static nested classes)
+- Played with Anonymous Inner Classes (one-time override)
+- Understood Interfaces (multiple inheritance of behavior, default/static methods)
