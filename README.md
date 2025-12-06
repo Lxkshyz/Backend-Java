@@ -115,3 +115,9 @@ To become a job-ready backend developer capable of building scalable, secure, an
 - Studied Inner Classes (non-static & static nested classes)
 - Played with Anonymous Inner Classes (one-time override)
 - Understood Interfaces (multiple inheritance of behavior, default/static methods)
+
+### Day 7
+- Studied enums in Java
+- Learned Exception Handling in Java
+- Practiced multiple catch blocks
+- Created my own custom exception class
