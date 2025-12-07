@@ -2,10 +2,11 @@
 
 class Main {
     public static void main(String[] args) {
-        Person p = new Person();
-        p = new Person();
-        p = new Person();
-        p = new Person();
+        // Create objects without reassigning - avoiding unnecessary references
+        new Person();
+        new Person();
+        new Person();
+        new Person();
         System.out.println(Person.population);
     }
 }

@@ -21,11 +21,14 @@ class Loops {
         } while (k <= 5);
 
         System.out.println("\nNested Loops:");
+        // Using StringBuilder to avoid repeated string concatenation in nested loops
+        StringBuilder nestedOutput = new StringBuilder();
         for (int x = 1; x <= 3; x++) {
             for (int y = 1; y <= 3; y++) {
-                System.out.println("x = " + x + ", y = " + y);
+                nestedOutput.append("x = ").append(x).append(", y = ").append(y).append("\n");
             }
         }
+        System.out.print(nestedOutput.toString());
 
         System.out.println("\nEnhanced For Loop:");
         int arr[] = {10, 20, 30, 40};

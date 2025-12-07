@@ -9,6 +9,7 @@ out/
 # Java build stuff
 target/
 build/
+*.class
 
 # Logs
 *.log

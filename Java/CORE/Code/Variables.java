@@ -22,24 +22,22 @@ public class Variables {
         String abc = "Hello world !";
         int[] arr = new int[]{1, 2, 3, 4, 5};
 
-        // Printing all values
-        System.out.println("byte: " + a);
-        System.out.println("short: " + b);
-        System.out.println("int: " + c);
-        System.out.println("long: " + d);
+        // Printing all values using printf for better performance
+        System.out.printf("byte: %d%n", a);
+        System.out.printf("short: %d%n", b);
+        System.out.printf("int: %d%n", c);
+        System.out.printf("long: %d%n", d);
+        System.out.printf("float: %.1f%n", e);
+        System.out.printf("double: %.1f%n", f);
+        System.out.printf("char: %c%n", g);
+        System.out.printf("boolean: %b%n", h);
+        System.out.printf("String: %s%n", abc);
 
-        System.out.println("float: " + e);
-        System.out.println("double: " + f);
-
-        System.out.println("char: " + g);
-        System.out.println("boolean: " + h);
-
-        System.out.println("String: " + abc);
-
-        // Print array
-        System.out.print("Array: ");
+        // Print array using StringBuilder for efficiency
+        StringBuilder arrayOutput = new StringBuilder("Array: ");
         for (int num : arr) {
-            System.out.print(num + " ");
+            arrayOutput.append(num).append(" ");
         }
+        System.out.println(arrayOutput.toString());
     }
 }

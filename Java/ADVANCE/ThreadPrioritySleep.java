@@ -10,7 +10,7 @@ class ThreadsPrioritySleep {
                     // Scheduler can give time to other threads meanwhile
                     Thread.sleep(100); // helping t2 get priority
                 } catch (InterruptedException e) {
-                    System.out.println(e.getMessage());
+                    System.err.println(e.getMessage());
                 }
             }
         });
@@ -21,7 +21,7 @@ class ThreadsPrioritySleep {
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException e) {
-                    System.out.println(e.getMessage());
+                    System.err.println(e.getMessage());
                 }
             }
         });
