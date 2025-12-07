@@ -38,6 +38,6 @@ public class Variables {
         for (int num : arr) {
             arrayOutput.append(num).append(" ");
         }
-        System.out.println(arrayOutput.toString());
+        System.out.println(arrayOutput);
     }
 }

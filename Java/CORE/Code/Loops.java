@@ -28,7 +28,7 @@ class Loops {
                 nestedOutput.append("x = ").append(x).append(", y = ").append(y).append("\n");
             }
         }
-        System.out.print(nestedOutput.toString());
+        System.out.print(nestedOutput);
 
         System.out.println("\nEnhanced For Loop:");
         int arr[] = {10, 20, 30, 40};
