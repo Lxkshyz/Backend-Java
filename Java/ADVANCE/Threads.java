@@ -9,21 +9,15 @@ class Threads {
         // Runnable is a Functional Interface with only one abstract method: run()
         // So lambda can be used to define the run() method behavior.
         Thread Th1 = new Thread(() -> {
-            // Using StringBuilder for efficient string concatenation in loop
-            StringBuilder output = new StringBuilder();
             for (int i = 0; i <= 100; i++) {
-                output.append("THREAD ONE\n");
+                System.out.println("THREAD ONE");
             }
-            System.out.print(output.toString());
         });
 
         Thread Th2 = new Thread(() -> {
-            // Using StringBuilder for efficient string concatenation in loop
-            StringBuilder output = new StringBuilder();
             for (int i = 0; i <= 100; i++) {
-                output.append("THREAD TWO\n");
+                System.out.println("THREAD TWO");
             }
-            System.out.print(output.toString());
         });
 
         // Creating a thread by extending Thread class
@@ -40,11 +34,8 @@ class Threads {
 class Th3 extends Thread {
     // Must override run() method, otherwise nothing runs in this thread
     public void run() {
-        // Using StringBuilder for efficient string concatenation in loop
-        StringBuilder output = new StringBuilder();
         for (int i = 0; i <= 100; i++) {
-            output.append("THREAD THREE\n");
+            System.out.println("THREAD THREE");
         }
-        System.out.print(output.toString());
     }
 }
