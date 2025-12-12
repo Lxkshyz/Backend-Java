@@ -121,3 +121,37 @@ To become a job-ready backend developer capable of building scalable, secure, an
 - Learned Exception Handling in Java
 - Practiced multiple catch blocks
 - Created my own custom exception class
+
+### Day 8
+- Explored **Maven** and why it's used in Java projects
+- Understood how Maven manages dependencies and builds
+- Learned about **POM.xml** structure
+- Studied `groupId`, `artifactId`, `version`, and packaging
+- Explored Maven lifecycle (clean, validate, compile, test, install, deploy)
+
+### Day 9
+- Practiced editing and customizing **POM.xml**
+- Added dependencies
+- Explored Maven repositories (local, central)
+- Learned how Maven automatically downloads required libraries
+- Tested various Maven plugins inside the POM
+
+### Day 10
+- Created simple Maven project structures
+- Explored project hierarchy (`src/main/java`, `src/test/java`)
+- Observed how the `target/` folder is generated
+- Practiced using basic Maven commands (`mvn clean`, `mvn compile`, `mvn package`)
+- Built and inspected JAR files
+
+### Day 11
+- Created a **sample Maven project from scratch**
+- Added custom dependencies and validated builds
+- Learned how Maven simplifies modern Java application setup
+- Understood how to configure project-wide properties in `pom.xml`
+
+### Day 12
+- Explored **JDBC** fundamentals
+- Connected Java to MySQL using `DriverManager`
+- Created a basic `Database.java` class to test DB connectivity
+- Performed insert/select/Truncate operations using Java
+- Understood `PreparedStatement` and how SQL queries execute through JDBC  
