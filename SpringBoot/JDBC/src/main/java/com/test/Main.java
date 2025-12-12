@@ -13,6 +13,7 @@ public class Main {
         String password = dt.get("DB_PASSWORD");
         Database db = new Database(url, user, password);
         db.createUser("Lakshya", 18);
-        db.getById(1);
+        db.createUser("Ayush", 25);
+        db.getById(3);
     }
 }
